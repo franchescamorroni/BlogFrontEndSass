@@ -1,0 +1,59 @@
+// Abstracts
+
+// Vendors
+
+// Base
+@use 'base/base';
+@use 'base/typography';
+
+// Layout
+@use 'layout/header';
+@use 'layout/form-login';
+@use 'layout/footer';
+@use 'layout/tech';
+@use 'layout/featured';
+@use 'layout/newsletter';
+@use 'layout/post';
+
+// Components
+@use 'components/buttons';
+@use 'components/inputs';
+
+// Pages
+// @use 'pages/login';
+// Themes
+
+@media screen and (max-width: 768px) {
+  .featured__container,
+  .post,
+  .tech__container {
+    grid-template-columns: 1fr;
+  }
+
+  .latam-second__text {
+    padding: 1.6rem;
+  }
+
+  .first-post__img,
+  .post__img,
+  .entry__img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  .entries {
+    grid-template-columns: 1fr;
+  }
+
+  .entry {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+}

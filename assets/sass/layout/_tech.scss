@@ -1,0 +1,105 @@
+/* Tech */
+
+.entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.post-latam {
+  display: flex;
+  align-items: center;
+}
+
+.entry__img {
+  height: 20rem;
+  border-radius: 2rem;
+  width: 29.8rem;
+  object-fit: cover;
+}
+
+.tech__container {
+  display: grid;
+  grid-template-columns: 1fr 29.8rem;
+  gap: 3rem;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.category__item {
+  display: flex;
+  justify-content: space-between;
+  height: 8.9rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.category__item p {
+  color: white;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.html {
+  background-color: var(--red);
+}
+
+.js {
+  background-color: var(--yellow);
+}
+
+.css {
+  background-color: var(--blue);
+}
+
+.react {
+  background-color: var(--dark);
+}
+
+.vue {
+  background-color: var(--green);
+}
+
+.bootstrap {
+  background-color: var(--purple);
+}
+
+.category__img-html {
+  width: 8.5rem;
+  height: 7.4rem;
+}
+
+.category__img-js {
+  width: 8.7rem;
+  height: 7.5rem;
+}
+
+.category__img-css {
+  width: 7.3rem;
+  height: 6.8rem;
+}
+
+.category__img-react {
+  width: 9.9rem;
+  height: 7.4rem;
+}
+
+.category__img-vue {
+  width: 7.7rem;
+  height: 5.7rem;
+}
+
+.category__img-bootstrap {
+  width: 9.1rem;
+  height: 8.0rem;
+}
+
+.category__text {
+  font-size: 2rem;
+}

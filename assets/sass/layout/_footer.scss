@@ -1,0 +1,16 @@
+/* Footer */
+
+footer {
+  border-top: 2px solid #cccccc;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer__date {
+  font-size: 2rem;
+}

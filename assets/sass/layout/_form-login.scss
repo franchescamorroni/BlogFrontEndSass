@@ -1,0 +1,27 @@
+.form-login {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+
+    &__title {
+        width: 100%;
+    font-weight: 400;
+    }
+}
+
+.form-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &__checkbox {
+        margin-right: 10px;
+    }
+
+    &__forget-password {
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+}

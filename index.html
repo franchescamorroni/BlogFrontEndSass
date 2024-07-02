@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo container">
+        <div class="logo">
+          <img src="./assets/img/logos/adl.png" alt="logo" class="logo__img" />
+        </div>
+        <p class="logo__text">Blog FrontEnd</p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="form-login">
+        <h1 class="form-login__title">Bienvenido</h1>
+        <form action="#">
+          <input class="form-login__input" type="email" placeholder="Email" />
+          <input
+            class="form-login__input"
+            type="password"
+            placeholder="Contraseña"
+          />
+          <div class="form-options">
+            <label class="form-options__label">
+              <input
+                type="checkbox"
+                class="form-options__checkbox"
+              />Recordarme</label
+            >
+            <a href="#" class="form-options__forget-password"
+              >¿Olvidaste tu contraseña?</a
+            >
+          </div>
+          <button class="form-login__button" data-action="login" data-redirect="blog.html">Iniciar sesión</button>
+          <button class="form-login__button form-login__button--google" data-action="login" data-redirect="blog.html"><img src="./assets/img/logos/GoogleLogo.svg" class="form-login__button-img"> Iniciar sesión con Google</button>
+          <span class="form-login__register">¿No tienes una cuenta? <a href="register.html" class="form-login__register-link">Regístrate</a></span>
+        </form> 
+      </div>
+    </div>
+        <!-- JQuery -->
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"
+        ></script>
+    <script src="./assets/js/auth.js"></script>
+  </body>
+</html>
